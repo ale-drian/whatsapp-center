@@ -1,0 +1,56 @@
+// import the library
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faSmile as farSmile } from '@fortawesome/free-regular-svg-icons'
+import { 
+    faAngleDoubleLeft,
+    faCheckSquare,
+    faCoffee,
+    faSave,
+    faFile,
+    faEdit,
+    faTrashAlt,
+    faBullhorn,
+    faCog,
+    faComment,
+    faUsers,
+    faLaptop,
+    faSignInAlt,
+    faPhone,
+    faBuilding,
+    faWrench,
+    faSearch,
+    faPencilAlt,
+    faTrash,
+    faStopCircle,
+    faThumbsDown,
+    faThumbsUp,
+    faPaperPlane
+ } from '@fortawesome/free-solid-svg-icons'
+
+library.add(
+    fab,
+    faCheckSquare,
+    faCoffee,
+    faSave,
+    faFile,
+    faEdit,
+    faTrashAlt,
+    faBullhorn,
+    faCog,
+    faComment,
+    faLaptop,
+    faSignInAlt,
+    faWrench,
+    faSearch,
+    farSmile,
+    faUsers,
+    faPhone,
+    faBuilding,
+    faPencilAlt,
+    faTrash,
+    faStopCircle,
+    faThumbsDown,
+    faThumbsUp,
+    faAngleDoubleLeft,
+    faPaperPlane)

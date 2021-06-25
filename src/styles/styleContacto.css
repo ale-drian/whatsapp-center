@@ -1,0 +1,57 @@
+.container-p {
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 200%;
+}
+.containerContacto {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    background-color: #ffff;
+    border-bottom: 2px solid #f6f6f6;
+    padding-left: 30px;
+}
+.containerContacto:hover {
+    background-color: #ebebeb;
+}
+.constainerContacto_info {
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.constainerContacto_info > h5 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.date_contact_conection{
+    float: left;
+    top: 0;
+    right: 0;
+    font-size: small;
+}
+
+.dropdown_contacto_asignar{
+    position: absolute;
+    display: flex;
+    
+    top: 5px;
+    right: 50px;
+}
+
+.Dropdown_button__394g-{
+    z-index: 1 !important;
+}
+
+.Dropdown_dropdown__NiMDm{
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+.Dropdown_menu__2AUKb.Dropdown_menuRight__2wsyi{
+    z-index: 100000 !important;
+
+}
